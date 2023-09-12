@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);      /*back-color does not have lnear gradient option so back-img is used*/
+    padding: 0 !important;
+}
+
+.navbar-brand img{                          /*navbar-brand will alter navbar, navbar-brand img alters image*/
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+    float: right;               /*menu appear right*/
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*----banner section----*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.fronttitle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 25px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-----service section-----*/
+
+#services{
+    padding: 80px 0px;
+}
+
+.serviceimg{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}                                                       /*this before and after is for line below title*/
+
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/*------ about us------*/
+
+#aboutus{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.abouttitle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.aboutus ul li {
+    margin: 10px 0;
+}
+
+
+/*---------testimonials------------*/
+
+#testimonials{
+    margin: 100px;
+}
+
+.test{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.test img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+/*------SOCIAL SECTION-----*/
+
+#social{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.socialicons img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.socialicons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*----- footer section-------*/
+
+#footer{
+    color: #fff;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-img{
+    width: 100%;
+
+}
+
+.footerbox{
+    padding: 20px;
+}
+
+.footerbox img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footerbox .fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copywrite{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
